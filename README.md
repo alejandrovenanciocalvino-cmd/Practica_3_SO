@@ -30,7 +30,7 @@
 
 [ ESTRUCTURA DEL PROYECTO ]
 
-* servidor.py         -> Emisor de datos binarios (B) en Windows.
+* ServidorCamara.py         -> Emisor de datos binarios (B) en Windows.
 * Practica 3_SO.cpp   -> Cliente C++ (Recepción byte a byte en WSL).
 * Ejecutar.sh         -> Script de automatización (Limpieza + Compilación).
 * datos_recibidos.txt -> Resultado final del proceso.
