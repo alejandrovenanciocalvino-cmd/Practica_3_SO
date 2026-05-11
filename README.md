@@ -2,14 +2,6 @@
 🌐 SOCKET BRIDGE: WSL-WINDOWS COMMUNICATION
 ================================================================================
 
-[ DESCRIPCIÓN ]
-Este proyecto implementa un sistema de transferencia de datos de bajo nivel diseñado 
-para conectar procesos entre Linux (WSL) y el Host (Windows) mediante protocolos 
-TCP/IP. Resuelve el reto técnico de la comunicación entre redes virtuales y la 
-sincronización de formatos binarios.
-
----
-
 [ 🛠️  REQUISITOS DEL SISTEMA ]
 
 | Componente   | Requisito                             |
@@ -64,6 +56,4 @@ sincronización de formatos binarios.
    La conexión se realiza a la IP virtual del Host (172.x.x.1) ya que 
    localhost en WSL apunta al propio contenedor Linux.
 
----
-         Desarrollado para la asignatura de Sistemas Operativos - 2026
 ================================================================================
