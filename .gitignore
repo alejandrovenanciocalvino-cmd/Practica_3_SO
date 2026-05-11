@@ -1,0 +1,43 @@
+# --- Binarios y Ejecutables ---
+# Ejecutables de Linux (WSL)
+programa
+cliente_red
+cliente
+*.out
+*.o
+
+# Ejecutables de Windows
+*.exe
+*.exe~
+*.dll
+*.so
+
+# --- Archivos de Datos (Resultados) ---
+# Ignoramos los archivos que genera el programa al recibir datos
+datos_recibidos.txt
+temperaturas.txt
+*.log
+
+# --- IDEs y Editores ---
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Visual Studio (Windows)
+.vs/
+Debug/
+Release/
+x64/
+*.user
+*.suo
+*.pdb
+
+# --- Archivos del Sistema ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Python (Servidor) ---
+__pycache__/
+*.py[cod]
+*$py.class
