@@ -1,8 +1,5 @@
-================================================================================
-🌐 SOCKET BRIDGE: WSL-WINDOWS COMMUNICATION
-================================================================================
 
-[ 🛠️  REQUISITOS DEL SISTEMA ]
+[ 🛠️  REQUISITOS ]
 
 | Componente   | Requisito                             |
 |--------------|---------------------------------------|
@@ -13,7 +10,7 @@
 
 ---
 
-[ 🚀 GUÍA DE INICIO RÁPIDO ]
+[ GUÍA ]
 
 1. PREPARAR EL FIREWALL (WINDOWS) (Si se bloquea la conexion por culpa del firewall)
    Para permitir que WSL se conecte al Host, ejecuta en PowerShell (Admin):
@@ -31,7 +28,7 @@
 
 ---
 
-[ 🏗️  ESTRUCTURA DEL PROYECTO ]
+[ ESTRUCTURA DEL PROYECTO ]
 
 * servidor.py         -> Emisor de datos binarios (B) en Windows.
 * Practica 3_SO.cpp   -> Cliente C++ (Recepción byte a byte en WSL).
@@ -41,7 +38,7 @@
 
 ---
 
-[ 🔍 DETALLES DE IMPLEMENTACIÓN ]
+[ DETALLES DE IMPLEMENTACIÓN ]
 
 1. FLUJO DE DATOS: 
    El servidor empaqueta enteros en bloques de 1 byte (struct.pack('B')). 
