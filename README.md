@@ -15,7 +15,7 @@
 
 [ 🚀 GUÍA DE INICIO RÁPIDO ]
 
-1. PREPARAR EL FIREWALL (WINDOWS)
+1. PREPARAR EL FIREWALL (WINDOWS) (Si se bloquea la conexion por culpa del firewall)
    Para permitir que WSL se conecte al Host, ejecuta en PowerShell (Admin):
    > New-NetFirewallRule -DisplayName "Socket_SO" -Direction Inbound -LocalPort 12345 -Protocol TCP -Action Allow
 
